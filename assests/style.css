@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-size: small;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 
 .links li a {
   display: block;
-
+  justify-content: center;
   padding: 14px 16px;
   text-decoration: none;
   color: white;
@@ -32,39 +32,79 @@ header {
 }
 
 .main {
-  display: flex;
-  justify-content: left;
-  margin-top: 700px;
+  display: block;
+  justify-content: start;
+  margin-top: 300px;
 }
 
-.header1 {
-  width: 300px;
-  height: 100px;
-  border: 2px solid purple;
-  box-sizing: border-box;
-  width: fit-content;
-  display: flex;
+img {
+  background-image: url("./Next_gen_2.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.greeting {
+  margin-bottom: 25px;
+}
+
+.p1 {
+  display: none;
+  border: 5px solid purple;
+  text-align: justify;
   overflow: auto;
+  background-color: gray;
+  padding-bottom: 30px;
+}
+
+.greeting:hover .p1 {
+  transition: all 0.25s ease-in;
+  display: block;
+  background-color: yellow;
+}
+
+h2 {
+  font-size: 50px;
 }
 
 .work {
-  width: 300px;
-  height: 100px;
-  border: 2px solid purple;
-  width: fit-content;
+  margin-bottom: 50px;
+}
+
+.p2 {
+  display: none;
+  border: 5px solid purple;
+  text-align: justify;
   overflow: auto;
+  background-color: gray;
+  padding-bottom: 30px;
+}
+
+.work:hover .p2 {
+  display: block;
+  background-color: yellow;
 }
 
 .contact-me {
-  width: 300px;
-  height: 100px;
-  border: 2px solid purple;
-  width: fit-content;
-  display: flex;
-  overflow: auto;
+  font-size: 50px;
 }
 
-.about-me{
-    border: 5px;
-    border-color: green;
+.p3 {
+  display: none;
+  border: 5px solid purple;
+  text-align: justify;
+  overflow: auto;
+  background-color: gray;
+  padding-bottom: 30px;
+}
+
+.contact-me:hover .p3 {
+  display: block;
+  background-color: yellow;
 }
