@@ -38,8 +38,8 @@ header {
 }
 
 img {
-  background-image: url("./Next_gen_2.jpg");
-  min-height: 380px;
+  background-image: url("./port_pic.jpg");
+  height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,6 +48,7 @@ img {
 
 h1 {
   font-size: 50px;
+  text-decoration: underline;
 }
 
 .greeting {
@@ -66,11 +67,12 @@ h1 {
 .greeting:hover .p1 {
   transition: all 0.25s ease-in;
   display: block;
-  background-color: yellow;
+  background-color: gold;
 }
 
 h2 {
   font-size: 50px;
+  text-decoration: underline;
 }
 
 .work {
@@ -88,11 +90,12 @@ h2 {
 
 .work:hover .p2 {
   display: block;
-  background-color: yellow;
+  background-color: gold;
 }
 
 .contact-me {
   font-size: 50px;
+  text-decoration: underline;
 }
 
 .p3 {
@@ -106,5 +109,5 @@ h2 {
 
 .contact-me:hover .p3 {
   display: block;
-  background-color: yellow;
+  background-color: gold;
 }
