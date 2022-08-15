@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-size: small;
+  font-size: large;
 }
 
 header {
@@ -110,4 +110,8 @@ h2 {
 .contact-me:hover .p3 {
   display: block;
   background-color: gold;
+}
+
+.contact-info {
+  margin-top: 10px;
 }
